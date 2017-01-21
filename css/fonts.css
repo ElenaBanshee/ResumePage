@@ -1,0 +1,22 @@
+/***********Turandot************/
+@font-face {    
+    font-family: 'turandot';
+    src: url('../fonts/turandot-webfont.eot');
+    src: url('../fonts/turandot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/turandot-webfont.woff2') format('woff2'),
+         url('../fonts/turandot-webfont.woff') format('woff'),
+         url('../fonts/turandot-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/***********Traktir************/
+@font-face {
+    font-family: 'traktir';
+    src: url('../fonts/traktir-webfont.eot');
+    src: url('../fonts/traktir-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/traktir-webfont.woff2') format('woff2'),
+         url('../fonts/traktir-webfont.woff') format('woff'),
+         url('../fonts/traktir-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

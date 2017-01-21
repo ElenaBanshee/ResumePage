@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Резюме</title>    
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+	    #page-preloader{
+		   	top:0;
+		   	left:0;
+		    width: 100vw;
+			height: 100vh;			
+			position: relative;	
+		    background: #ccc;
+		    z-index: 100500;
+		}
+		#page-preloader .spinner{	    
+		    width: 100%;
+			height: 100%;	    
+		    background: url('img/preloader.gif') no-repeat;
+	    	background-position: 50% 50%;	   
+		}
+	</style>
+</head>
+<body>
+<div id="page-preloader"><div class="spinner"></div></div>
+<div id="wrapper">
+    <!--НИЖНИЙ УРОВЕНЬ-->
+    <div id="substrate">
+        <!--БОЛЬШИЕ ШЕСТЕРЕНКИ ПО БОКАМ ОТ ЧАСОВ-->
+        <div id="whill1" class="whill-clock whill" data-timing='10s' data-dir="right"></div>
+        <div id="whill2" class="whill-clock whill" data-timing='10s' data-dir="left"></div>
+        <!--ШЕСТЕРЕНКИ ЧАСОВ-->
+        <div id="whl_cl4" class="whill" data-timing='20s' data-dir="right"></div>
+        <div id="whl_cl7" class="whill" data-timing='5s' data-dir="right"></div>
+        <div id="base"></div>
+        <div id="whl_cl1" class="whill" data-timing='5s' data-dir="right"></div>
+        <div id="whl_cl2" class="whill" data-timing='20s' data-dir="left"></div>
+        <div id="whl_cl3" class="whill" data-timing='10s' data-dir="left"></div>
+        <div id="whl_cl5" class="whill" data-timing='1s' data-dir="left"></div>
+        <div id="whl_cl6" class="whill" data-timing='1s' data-dir="right"></div>
+        <div id="whl_cl8" class="whill" data-timing='1s' data-dir="left"></div>
+        <div id="whl_cl9" class="whill" data-timing='1s' data-dir="right"></div>
+        <div id="whl_cl10" class="whill" data-timing='3s' data-dir="left"></div>
+        <div id="whl_cl11" class="whill" data-timing='3s' data-dir="right"></div>
+        <!--БОКОВЫЕ ШЕСТЕРЕНКИ-->
+        <div id="whill3" class="whill" data-timing='10s' data-dir="right"></div>
+        <div id="whill4" class="whill" data-timing='20s' data-dir="left"></div>
+        <div id="whill5" class="whill" data-timing='8s' data-dir="right"></div>        
+    </div>
+    <!--ВЕРХНИЙ УРОВЕНЬ-->    
+    <div id="main"> 
+        <!--ЦИФЕРБЛАТ-->  
+        <div id="round">
+            <!--СТРЕЛКИ-->
+            <div id="arrow_s"></div>
+            <div id="arrow_m"></div>
+            <div id="arrow_h"></div>
+            <div id="pin"></div> 
+        </div>
+        <!--МЕХАНИЗМ ПОД ЧАСАМИ-->
+        <!--ЛЕВАЯ СТОРОНА МЕХАНИЗМА ВЕРХ-->
+        <div id="whl1_1" class="whill" data-timing='15s' data-dir="right"></div>
+        <div id="whl1_2" class="whill" data-timing='25s' data-dir="left"></div>
+        <div id="whl1_3" class="whill" data-timing='10s' data-dir="right"></div>
+        <div id="pin1_1"></div>
+        <div id="whl1_4" class="whill" data-timing='10s' data-dir="left"></div>
+        <div id="pin1_2"></div>
+        <div id="whl1_5" class="whill" data-timing='.5s' data-dir="right"></div>
+        <!--ПРАВАЯ СТОРОНА МЕХАНИЗМА ВЕРХ-->
+        <div id="whl2_1" class="whill" data-timing='15s' data-dir="left"></div>
+        <div id="whl2_2" class="whill" data-timing='25s' data-dir="right"></div>
+        <div id="whl2_3" class="whill" data-timing='10s' data-dir="left"></div>
+        <div id="pin2_1"></div>
+        <div id="whl2_4" class="whill" data-timing='10s' data-dir="right"></div>
+        <div id="pin2_2"></div>
+        <div id="whl2_5" class="whill" data-timing='.5s' data-dir="left"></div>
+        <!--ОСИ-->
+        <div id="axis"></div>
+        <!--ЛЕВАЯ СТОРОНА МЕХАНИЗМА НИЗ-->
+        <div id="whill1_6" class="whill" data-timing='.5s' data-dir="left"></div>        
+        <div id="whill1_7" class="whill" data-timing='3s' data-dir="left"></div>
+        <div id="whill1_8" class="whill" data-timing='5s' data-dir="right"></div>
+        <div id="whill1_9" class="whill" data-timing='25s' data-dir="left">
+            <div id="whill1_10" class="whill" data-timing='1s' data-dir="right"></div>
+        </div>        
+        <div id="base1"></div>
+        <div id="whill1_11" class="whill" data-timing='10s' data-dir="right"></div>
+        <div id="whill1_12"></div>
+        <div id="whill1_13" class="whill" data-timing='10s' data-dir="right"></div>
+        <div id="whill1_14"></div>
+        <div id="whill1_15" class="whill" data-timing='6s' data-dir="left"></div>
+        <div id="whill1_16"></div>
+        <div id="whill1_17" class="whill" data-timing='1s' data-dir="left"></div>
+        <!--ПРАВАЯ СТОРОНА МЕХАНИЗМА НИЗ-->    
+        <div id="whill2_6" class="whill" data-timing='.5s' data-dir="right"></div>        
+        <div id="whill2_7" class="whill" data-timing='3s' data-dir="right"></div>
+        <div id="whill2_8" class="whill" data-timing='5s' data-dir="left"></div>
+        <div id="whill2_9" class="whill" data-timing='25s' data-dir="right">
+            <div id="whill2_10" class="whill" data-timing='1s' data-dir="left"></div>
+        </div>        
+        <div id="base2"></div>
+        <div id="whill2_11" class="whill" data-timing='10s' data-dir="left"></div>
+        <div id="whill2_12"></div>
+        <div id="whill2_13" class="whill" data-timing='10s' data-dir="left"></div>
+        <div id="whill2_14"></div>
+        <div id="whill2_15" class="whill" data-timing='6s' data-dir="right"></div>
+        <div id="whill2_16"></div>
+        <div id="whill2_17" class="whill" data-timing='1s' data-dir="right"></div>
+        <!--СТРЕЛКИ-->
+        <div id="big_arrow_1" class="big_arrows arrow" data-timing="1s" data-anim="sway1" data-delay="1.5s"></div>
+        <div id="big_arrow_2" class="big_arrows arrow" data-timing="1s" data-anim="sway1"></div>
+        <div id="sm_arrow" class="arrow" data-timing="1s" data-anim="sway3" data-delay="0s"></div>
+        <div id="arr1_1" class="arr1 arrow" data-timing="2s" data-anim="sway1" data-delay="0s"></div>
+        <div id="arr1_2" class="arr1 arrow" data-timing="3s" data-anim="sway1" data-delay="0s"></div>
+        <div id="arr2" class="arrow" data-timing="3s" data-anim="sway2" data-delay=".5s"></div>
+
+        <div id="arr3_1" class="arr3 arrow" data-timing=".4s" data-anim="sway4" data-delay="0s"></div>
+        <div id="arr3_2" class="arr3 arrow" data-timing=".4s" data-anim="sway4" data-delay=".4s"></div>
+        <div id="arr3_3" class="arr3 arrow" data-timing=".4s" data-anim="sway4" data-delay=".8s"></div>
+        <div id="arr3_4" class="arr3 arrow" data-timing=".4s" data-anim="sway4" data-delay="1.2s"></div>
+        <div id="arr3_5" class="arr3 arrow" data-timing="1s" data-anim="sway4" data-delay=".6s"></div>
+        <div id="arr3_6" class="arr3 arrow" data-timing=".8s" data-anim="sway4" data-delay=".3s"></div>
+        <div id="arr3_7" class="arr3 arrow" data-timing="1.2s" data-anim="sway4" data-delay="0s"></div>
+        <div id="arr4" class="arrow" data-timing="2s" data-anim="sway5" data-delay="0s"></div>
+        <div id="arr5" class="arrow" data-timing="4s" data-anim="sway5" data-delay="1s"></div>
+        <div id="arr6_1" class="arrow arr6" data-timing="1s" data-anim="sway6" data-delay="0s"></div>
+        <div id="arr6_2" class="arrow arr6" data-timing="1s" data-anim="sway7" data-delay=".5s"></div>
+        <!--ВЕНТИЛИ-->
+        <div id="valve1" class="valve" data-timing="25s"></div>
+        <div id="valve2" class="valve" data-timing="18s"></div>
+        <!--ЛАМПЫ-->
+        <div id="lamps_all">
+	        <div id="lamp1" class="lamp lamps"></div>
+	        <div id="lamp1_1" class="lamp lamps_add"></div>
+	        <div id="lamp2" class="lamp lamps"></div>
+	        <div id="lamp2_1" class="lamp lamps_add"></div>
+	        <div id="lamp3" class="lamp lamps"></div>
+	        <div id="lamp3_1" class="lamp lamps_add"></div>
+	    </div>    
+	        <div id="spir1" class="spir"></div>
+	        <div id="spir2" class="spir"></div>
+        
+        <!--ПРОГРЕССБАРЫ-->
+		<div id="prog_bar1" class="prog_bar" data-percent="80"><div></div></div>
+		<div id="prog_bar2" class="prog_bar" data-percent="90"><div></div></div>
+		<div id="prog_bar3" class="prog_bar" data-percent="70"><div></div></div>
+		<div id="prog_bar4" class="prog_bar" data-percent="90"><div></div></div>
+		<div id="prog_bar5" class="prog_bar" data-percent="70"><div></div></div>
+		<div id="prog_bar6" class="prog_bar" data-percent="80"><div></div></div>
+		<div id="prog_bar7" class="prog_bar" data-percent="50"><div></div></div>
+		<div id="prog_bar8" class="prog_bar" data-percent="90"><div></div></div>
+		<div id="prog_bar9" class="prog_bar" data-percent="40"><div></div></div>
+        <div id="prog_bar_vert"><div></div></div>
+        <!--ТЕКСТ-->
+		<div id="name">Елена Лещинская</div>		 
+		<div id="prof">Frontend разработчик, HTML/CSS верстальщик</div>		
+		<div id="goal1">Цель:</div>		
+		<div id="goal2">Получение должности frontend разработчика</div>	
+		<div id="this_page">Эта страница на github:<br><a href="https://github.com/ElenaBanshee/ResumePage">https://github.com/ElenaBanshee/ResumePage</a></div>	
+		<div id="contacts"><a href="tel:+380956602911">+38(095)660-29-11</a><br>
+		elena.banshee@gmail.com<br>г.Днепр(Днепропетровск)</div>		
+		<div id="education">Образование:</div>		
+		<div id="university">Донецкий Национальный Технический Университет<br>Год окончания: 2007<br>Инженер-программист, факультет ВТИ, магистр</div>		
+		<div id="course">Курс "Frontend developer"(Днепропетровск), 2016<br>Ссылка на дипломный проект:<a href="http://z95660ai.bget.ru">http://z95660ai.bget.ru</a>,
+		<br><a href="https://github.com/ElenaBanshee/travel_landing">https://github.com/ElenaBanshee/travel_landing</a></div>		
+		<div id="experience1">Опыт работы:</div>
+		<div id="experience2">									
+			<p>&#9733;<span> Системный администратор </span>&#9733;<br>
+				ЗАО ДМФ, январь 2007 - май 2011<br>
+				от 100 до 250 сотрудников; Промышленность и Производство<br>
+				Проектирование и монтаж локальных сетей, сопровождение программ и техники (Windows2003 Server, Microsoft Office, Open Office, 1C Бухгалтерия 7.7 Производство+Услуги+Бухгалтерия, Клиент-Банки, Лига-Закон, Зарплата, Бест-Звiт), установка и настройка прикладного ПО, сеть 30 компьютеров, установка и настройка оргтехники, сборка и модернизация ПК, поддержка пользователей, обучение сотрудников.
+			</p>
+			<p>&#9733;<span> Графический дизайнер </span>&#9733;<br>
+				Рекламное агенство More Art, октябрь 2005 - декабрь 2006<br>
+				до 20 сотрудников; Издательства и Полиграфия<br>
+				Верстка и создание открыток, визиток, буклетов, плакатов, баннеров и т.д. для полиграфии. Работа с графическими редакторами Adobe Photoshop, Corel Draw, QuarkXPress.
+			</p>        	    	 						        
+	        <p>&#9733;<span> Инженер-системотехник </span>&#9733;<br>
+				УПФУ в Кировском районе г. Донецка, март 2005 - сентябрь 2005<br>
+				от 50 до 100 сотрудников; Государственный сектор<br>
+				Установка и настройка операционных систем Novell Netware, Unix, Windows 98/XP/2003 Server. Установка, настройка Windows и прикладного ПО, монтаж сетей, сеть 60 компьютеров, установка и настройка оргтехники, сборка и модернизация ПК, поддержка пользователей, обучение сотрудников.
+			</p>					
+		</div>
+		<div id="prof_skills">Профессиональные навыки</div>
+		<div id="skill1" class="skills">JavaScript+JQuery+AJAX</div>
+		<div id="skill2" class="skills">HTML5/CSS3</div>
+		<div id="skill3" class="skills">PHP+MySQL</div>
+		<div id="skill4" class="skills">Bootstrap3</div>
+		<div id="skill5" class="skills">SASS/SCSS</div>
+		<div id="skill6" class="skills">Git</div>
+		<div id="skill7" class="skills">OC Linux</div>
+		<div id="skill8" class="skills">Photoshop+Corel</div>
+		<div id="skill9" class="skills">CMS Drupal</div>
+		<div id="lang" class="additional"><span>Иностранные языки:</span> английский,<br>уровень владения - средний.</div>
+		<div id="pers_qual" class="additional"><span>Личные качества:</span> креативность, умение мыслить<br>нешаблонно, быстрая обучаемость, трудолюбие.</div>
+		<div id="hobbies" class="additional"><span>Увлечения и интересы:</span><br> английский театр, ирландские танцы, гитара,<br>западноевропейский фолк.</div>
+	</div>
+</div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>    
+    <script type="text/javascript" src="js/app.js"></script>    
+</body>
+</html>
